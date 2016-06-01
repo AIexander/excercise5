@@ -5,3 +5,4 @@ if grocery_list.include?('banana')
 else
   puts "you need no bananas today, Congratulations!"
 end
+puts "the second item on the list is #{grocery_list [1]}"
