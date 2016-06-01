@@ -21,3 +21,8 @@ display_students(students)
 
 students.delete(:cohort2)
 display_students(students)
+all_students = 0
+students.each do |cohort, total|
+   all_students += total
+end
+puts "The total of all students is: #{all_students}"
