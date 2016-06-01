@@ -10,3 +10,10 @@ puts "the second item on the list is #{grocery_list[1]}"
 grocery_list.each do |item|
   puts "*" + item
 end
+puts "This list contains #{grocery_list.count} items"
+
+grocery_list.sort!
+puts grocery_list
+
+grocery_list.delete("salmon")
+puts grocery_list
