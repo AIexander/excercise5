@@ -1,3 +1,7 @@
 grocery_list =["bananas", "toothpaste", "drano", "salmon", "oranges"]
 grocery_list << 'rice'
-puts grocery_list.length
+if grocery_list.include?('banana')
+  puts "you need to pick up some BANANAS!"
+else
+  puts "you need no bananas today, Congratulations!"
+end
